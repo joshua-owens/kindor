@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :kindor, Kindor.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "kindor",
+  password: "kindor",
   hostname: "localhost",
   database: "kindor_dev",
   stacktrace: true,
