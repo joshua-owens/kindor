@@ -33,6 +33,7 @@ RUN mix local.hex --force && \
 
 # set build ENV
 ENV MIX_ENV="prod"
+# https://elixirforum.com/t/arm64-dockerfile-failing/57317/11
 ENV ERL_FLAGS="+JPperf true"
 
 # install mix dependencies
